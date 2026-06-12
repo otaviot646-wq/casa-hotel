@@ -1,4 +1,4 @@
 - name: Escribir el certificado SSL en el servidor
   run: |
-    echo "${{ secrets.SSL_PUBLIC_KEY }}" > private.key
+    echo "${{ secrets.SSL_PUBLIC_KEY }}" > public.key
     echo "${{ secrets.MY_SSL_CERT }}" > certificate.crt
