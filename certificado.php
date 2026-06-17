@@ -3,8 +3,7 @@
 <head>
 <body>
     <?php
-echo "${{ secrets.SSL_PUBLIC_KEY }}" > public.key;
-    echo "${{ secrets.MY_SSL_CERT }}" > certificate.crt;
+echo "bienvenido a la pagina"
   ?>
 </body>
  </head>   
